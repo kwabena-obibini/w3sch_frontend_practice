@@ -1,0 +1,42 @@
+--> HTML DOCUMENTS
+
+All HTML documents must start with a document type declaration:
+<!DICTYPE html>
+
+The HTML document itself begins with <html> and ends with </html>.
+
+The visible part of the HTML document is between <body> and </body>
+
+--> The <!DOCTYPE> Declaration
+
+The <!DOCTYPE> declatation represents the document type, and helps browsers to display web pages correctly.
+
+It must only appear once, at the top of the page (before and HTML tags).
+
+The <!DOCTYPE> declaration is not case sentitive.
+
+The <!DOCTYPE> declaration for HTML5 is:
+	<!DOCTYPE html>
+
+--> HTML Headings
+
+HTML headings are defined with the <h1> to <h6> tags.
+<h1 defines the most important heading. <h6> defines the least important heading.
+
+--> HTML Paragraphs
+HTML paragraphs are defined with the <p> tag:
+	<p>This si a paragraph.</p>
+	<p>This is another paragraph.</p>
+
+--> HTML Links
+HTML links are defined with the <a> tag:
+	<a href="https://www.w3schools.com">This is a link</a>
+
+The link's destination is specified in the href attribute.
+Attributes are used to provide additional information about HTML elements.
+
+--> HTML Images
+HTML images are defined with the <img> tag.
+The source file (src), alternative text (alt), width, and height are provided as attributes:
+	<img src="w3schools.jpg" alt="w3schools.com" width="104" height="142">
+
