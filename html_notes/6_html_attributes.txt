@@ -8,10 +8,12 @@ HTML attributes provide additional information about HTML elements.
 	* Attributes usually come in name/value pairs like: name="value"
 
 --->The href Attribute
+
 The <a> tag defines a hyperlink. The href attribute specifies the URL of the page the link goes to:
 	<a href="https://www.w3schools.com">Visit W3Schools</a>
 
 ---> The src Attribute
+
 The <img> tag is used to embed an image in an HTML page. The src attribute specifies the path to the image to be displayed:
 	<img src="img_girl.jpg">
 
@@ -70,7 +72,7 @@ We can see all the language codes in our HTML langauage code reference.
 The title attribute defines some extra information about an element.
 
 The value of the title attribute will be displayed as a tooltip when you mouse over the element:
-	<p title="I'm a toooltip"> This is a paragraph.</p>
+	<p title="I'm a tooltip"> This is a paragraph.</p>
 
 We suggest: Always use lowercase Attributes
 -------------------------------------------
